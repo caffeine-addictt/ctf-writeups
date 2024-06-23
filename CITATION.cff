@@ -3,15 +3,18 @@ authors:
   - alias: Jun Xiang
 identifiers:
   - type: url
-    value: https://github.com/ctf-writeups/releases/tag/v0.0.0
+    value: https://github.com/caffeine-addictt/ctf-writeups/releases/tag/v0.0.0
     description: The GitHub release URL of tag v0.0.0.
 cff-version: 1.2.0
-date-released: yyyy-mm-dd
+date-released: 2024-06-23
 keywords:
-  -
+  - ctf
+  - capture-the-flag
+  - cybersecurity
+  - pentest
 license: MIT
 message: If you use this software, please cite it using these metadata.
-repository-code: https://github.com/ctf-writeups
+repository-code: https://github.com/caffeine-addictt/ctf-writeups
 title: CTF Writeups
 type: software
 version: 0.0.0
