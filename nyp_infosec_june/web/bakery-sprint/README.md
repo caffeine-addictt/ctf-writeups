@@ -43,10 +43,10 @@ This is a simple `directory traversal attack`.
 Iterate the URL
 
 ```text
-/recipe/1
-/recipe/2
+/recipes/1
+/recipes/2
 ...
-/recipe/100
+/recipes/100
 ```
 
 This is slow however, because there is 100 recipies to iterate through.
