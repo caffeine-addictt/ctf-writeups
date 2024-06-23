@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block title %}Croissant{% endblock %}
+
+{% block content %}
+  <div class="container mx-auto py-8">
+    <h2 class="text-3xl font-bold mb-6">Reviews</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="openModal()">+</button>
+      {% for review in reviews %}
+        <div class="bg-white dark:bg-neutral-900 shadow-md rounded-lg p-6">
+          <h3 class="text-2xl font-semibold mb-2">{{ review.rating }}/5</h3>
+          <p class="mb-2">
+            {{ review.comment | safe }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div id="reviewModal" class="fixed z-10 inset-0 overflow-y-auto hidden">
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="bg-white dark:bg-neutral-900 rounded-lg p-8 shadow-lg max-w-lg w-full">
+        <h2 class="text-2xl font-bold mb-4">Add Review</h2>
+        <form id="reviewForm" onsubmit="return false">
+          <div class="mb-4">
+            <label for="rating" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Rating</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-neutral-800 dark:border-neutral-600 dark:text-white">
+          </div>
+          <div class="mb-4">
+            <label for="comment" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Comment</label>
+            <textarea id="comment" name="comment" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-neutral-800 dark:border-neutral-600 dark:text-white"></textarea>
+          </div>
+          <div class="flex justify-end">
+            <button type="button" class="bg-gray-500 text-white px-4 py-2 rounded mr-2" onclick="closeModal()">Cancel</button>
+            <button id="submit" type="submit" class="bg-blue-500 text-white px-4 py-2 rounded" data-token="{{ token }}">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/root.js') }}"></script>
+{% endblock %}
