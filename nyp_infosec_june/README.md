@@ -14,3 +14,4 @@ as they came up.
 ## Challenges
 
 1. [web/croissant](./web/croissant/README.md)
+2. [web/bakery-sprint](./bakery-sprint/README.md)
