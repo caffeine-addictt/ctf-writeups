@@ -2,6 +2,20 @@
 
 A play on words: Croissant is a hint that the solution involved **XSS (Cross-Site-Scripting)**.
 
+<!--toc:start-->
+- [Croissant](#croissant)
+  - [Context](#context)
+  - [Solution](#solution)
+    - [1. Identify that comments are not being escaped](#1-identify-that-comments-are-not-being-escaped)
+    - [2. Identify that the endpoint providing the flag is dynamically generated](#2-identify-that-the-endpoint-providing-the-flag-is-dynamically-generated)
+    - [3. Identify that the endpoint is formatted into comments](#3-identify-that-the-endpoint-is-formatted-into-comments)
+    - [4. Identify that we need session token and cookie to access the endpoint](#4-identify-that-we-need-session-token-and-cookie-to-access-the-endpoint)
+    - [5. We do not need to explicitly pass the cookie](#5-we-do-not-need-to-explicitly-pass-the-cookie)
+    - [6. Getting the session token](#6-getting-the-session-token)
+    - [7. Send the payload](#7-send-the-payload)
+    - [8. Solved](#8-solved)
+<!--toc:end-->
+
 ## Context
 
 This is the main page

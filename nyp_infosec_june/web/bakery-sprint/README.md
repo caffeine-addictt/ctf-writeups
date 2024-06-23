@@ -2,6 +2,23 @@
 
 This challenge is a bit special with 2 flags and 2 different attack vectors.
 
+<!--toc:start-->
+- [Bakery Sprint](#bakery-sprint)
+  - [Context](#context)
+  - [Flag 1](#flag-1)
+    - [1a. You can manually change the recipe-id in the URL](#1a-you-can-manually-change-the-recipe-id-in-the-url)
+    - [1b. Following RESTful API principals](#1b-following-restful-api-principals)
+    - [2. Find the missing ID](#2-find-the-missing-id)
+    - [3. Navigate to /recipes/43](#3-navigate-to-recipes43)
+  - [Flag 2](#flag-2)
+    - [1. Creating a new user](#1-creating-a-new-user)
+    - [2. Identify user accounts not using JWT signing](#2-identify-user-accounts-not-using-jwt-signing)
+    - [3. Find users endpoint](#3-find-users-endpoint)
+    - [4. HTTP GET to `/api/v1/user`](#4-http-get-to-apiv1user)
+    - [5. Edit user_id cookie](#5-edit-userid-cookie)
+    - [6. Navigate to /profile](#6-navigate-to-profile)
+<!--toc:end-->
+
 ## Context
 
 Anne has 100 recipes posted on her website.
