@@ -1,22 +1,17 @@
-abstract: GitHub template repository
+abstract: CTF Writeups
 authors:
-  - alias: Alex
-    family-names: Ng
-    given-names: Jun Xiang
-    orcid: https://orcid.org/0009-0001-1641-9397
+  - alias: Jun Xiang
 identifiers:
   - type: url
-    value: https://github.com/caffeine-addictt/template/releases/tag/v1.12.3
-    description: The GitHub release URL of tag v1.12.3.
+    value: https://github.com/ctf-writeups/releases/tag/v0.0.0
+    description: The GitHub release URL of tag v0.0.0.
 cff-version: 1.2.0
-date-released: 2024-05-12
+date-released: yyyy-mm-dd
 keywords:
-  - template
-  - bash
-  - github
+  -
 license: MIT
 message: If you use this software, please cite it using these metadata.
-repository-code: https://github.com/caffeine-addictt/template
-title: template
+repository-code: https://github.com/ctf-writeups
+title: CTF Writeups
 type: software
-version: 1.12.3
+version: 0.0.0

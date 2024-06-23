@@ -18,15 +18,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Repository Template</h3>
+  <a href="https://github.com/ctf-writeups">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">CTF Writeups</h3>
 
   <p align="center">
-    Simple repository template to get started with GitHub.
+    A collection of all my ctf writeups
+    <br />
+    <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/caffeine-addictt/template/issues">Report Bug</a>
+    <a href="https://github.com/ctf-writeups/issues">Report Bug</a>
     ·
-    <a href="https://github.com/caffeine-addictt/template/issues">Request Feature</a>
+    <a href="https://github.com/ctf-writeups/issues">Request Feature</a>
   </p>
 </div>
 
@@ -34,56 +40,40 @@
 
 ## About The Project
 
-A simple repository template to get started with GitHub.
+![Social Card](images/socialcard.png)
 
-Starting a new project?
-Say goodbye to repetitive setup tasks and configuration headaches!
-Simplify your workflow, save time, and ensure consistency across projects.
-
-Let's make starting new projects feel like a _breeze_ again.
+Here is where I place all my CTF writeups
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
 ## Getting Started
 
-### 1. Creating a repository
+This is an example of how you can set up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Click the green "Use this template" button in the top right corner of the page
-or the button below to create your new repository.
+### Prerequisites
 
-[![Use Template][use-shield]][use-url]
+-
 
-### 2. Run the setup script
+### Installation
 
-> [!NOTE]
-> Only Node.Js versions 16, 18, 20 and latest are officially supported.
+_Below is an example of how you can install and use CTF Writeups._
 
-Run the following command and answer the prompts to complete the setup.
+1.
+2.
 
-```sh
-node ./dist/setup.js
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 3. Final touches
+<!-- DOCS -->
 
-You are almost ready to start building your project.
-Just a few more steps and you're ready to go!
+## Documentation
 
-- Update `CITATION.cff` file with your project information.
-- Create and add project images to the `images/` directory
-  and update `README.md` file.
-- Update `LICENSE.txt` file with your preferred license.
-- Update `.github/CODESTYLE.md` with your project's preferred code style.
-- Update `CONTRIBUTING.md` with your project's preferred contribution guidelines.
-- Update the workflow files in the `.github/workflows/` directory.
+Our docs are [here]()!
 
-> [!NOTE]
-> We know that there is still a fair amount of manual setup required,
-> and we are committed to making this process as smooth and painless as possible.
->
-> If you have any feedback, please feel free to create an issue or a pull request.
-
-Want to support this project? **✨ Star it on GitHub** and help us spread the word!
+See the [open issues](https://github.com/ctf-writeups/issues)
+for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +112,7 @@ Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more inf
 
 ## Contact
 
-Alex - [contact@ngjx.org](mailto:contact@ngjx.org)
+Jun Xiang - [contact@ngjx.org](mailto:contact@ngjx.org)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +120,7 @@ Alex - [contact@ngjx.org](mailto:contact@ngjx.org)
 
 ## Acknowledgments
 
+- [Repository Template](https://github.com/caffeine-addictt/template)
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -141,11 +132,9 @@ Alex - [contact@ngjx.org](mailto:contact@ngjx.org)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-shield]: https://img.shields.io/github/forks/caffeine-addictt/template.svg?style=for-the-badge
-[forks-url]: https://github.com/caffeine-addictt/template/network/members
-[stars-shield]: https://img.shields.io/github/stars/caffeine-addictt/template.svg?style=for-the-badge&color=yellow
-[stars-url]: https://github.com/caffeine-addictt/template/stargazers
-[license-shield]: https://img.shields.io/github/license/caffeine-addictt/template.svg?style=for-the-badge
-[license-url]: https://github.com/caffeine-addictt/template/blob/master/LICENSE.txt
-[use-shield]: https://img.shields.io/badge/Use%20template-FFFFFF?style=for-the-badge
-[use-url]: https://github.com/new?template_name=template&template_owner=caffeine-addictt
+[forks-shield]: https://img.shields.io/github/forks/ctf-writeups.svg?style=for-the-badge
+[forks-url]: https://github.com/ctf-writeups/network/members
+[stars-shield]: https://img.shields.io/github/stars/ctf-writeups.svg?style=for-the-badge&color=yellow
+[stars-url]: https://github.com/ctf-writeups/stargazers
+[license-shield]: https://img.shields.io/github/license/ctf-writeups.svg?style=for-the-badge
+[license-url]: https://github.com/ctf-writeups/blob/master/LICENSE.txt

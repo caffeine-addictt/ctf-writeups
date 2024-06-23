@@ -12,18 +12,15 @@ and refer to it throughout the development of your contribution.
 Listed is a example class used demonstrate general rules you should follow
 throughout the development of your contribution.
 
-We use [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/)
-to ensure that code is consistent and follows our [code style](./CODESTYLE.md).
+We use _Replace this with with you lint your code with_
+to ensure that code is consistent and follows our code style.
 Please ensure that your code passes linting before merging a Pull Request.
 
-- Docstrings are to follow [JSDoc syntax](https://jsdoc.app).
+- Docstrings are to follow _Replace this with what style Docstrings should follow_.
 - Private attributes are to be prefixed with an underscore.
 
-```ts
-/** Get a greeting string */
-const myFunction = (): string => {
-  return 'hi';
-};
+```text
+# Replace this with examples
 ```
 
 ## Markdown Guidelines
